@@ -2573,9 +2573,9 @@ input, select, textarea {
 		}
 
 	.work-item .image.fit img {
-    width: 100%;        /* Spans the full width of the column */
-    height: 300px;      /* Set a fixed height that looks good for your layout */
-    object-fit: cover;  /* This is the "magic" property */
+    width: 100% !important;        /* Spans the full width of the column */
+    height: 300px !important;      /* Set a fixed height that looks good for your layout */
+    object-fit: cover !important;  /* This is the "magic" property */
     object-position: center; /* Keeps the center of the image visible */
 	}
 
